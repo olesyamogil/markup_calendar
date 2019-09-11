@@ -174,24 +174,24 @@
   grid-column-start: 7;
 }
 
-.calendar-28div:nth-child(29) {
+.calendar-28 > div:nth-child(29) {
   display: none;
 }
-.calendar-28div:nth-child(30) {
+.calendar-28 > div:nth-child(30) {
   display: none;
 }
-.calendar-28div:nth-child(31) {
-  display: none;
-}
-
-.calendar-29div:nth-child(30) {
-  display: none;
-}
-.calendar-29div:nth-child(31) {
+.calendar-28 > div:nth-child(31) {
   display: none;
 }
 
-.calendar-30div:nth-child(31) {
+.calendar-29 > div:nth-child(30) {
+  display: none;
+}
+.calendar-29 > div:nth-child(31) {
+  display: none;
+}
+
+.calendar-30 > div:nth-child(31) {
   display: none;
 }
 

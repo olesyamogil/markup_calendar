@@ -41,7 +41,7 @@ $days: mon, tue, wed, thu, fri, sat, sun;
 @for $i from 28 through 30 {
   .calendar-#{$i} {
     @for $j from $i+1 through 31 {
-      &div:nth-child(#{$j}) {
+      &>div:nth-child(#{$j}) {
         display: none;
       }
     }
